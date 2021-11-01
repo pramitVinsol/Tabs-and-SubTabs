@@ -8,4 +8,10 @@ function SubTab(props) {
   )
 }
 
+Tab.defaultProps = {
+  activeClass: '',
+  clicked: () => {},
+  subTabName: ''
+};
+
 export default SubTab;

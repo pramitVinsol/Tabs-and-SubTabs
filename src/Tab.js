@@ -9,4 +9,11 @@ function Tab(props) {
   )
 };
 
+Tab.defaultProps = {
+  activeClass: '',
+  children: '',
+  clicked: () => {},
+  tabName: ''
+};
+
 export default Tab;
