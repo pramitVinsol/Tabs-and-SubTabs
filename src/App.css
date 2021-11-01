@@ -1,15 +1,15 @@
 .tabs>.tab{
-    max-width: 30%;
+  max-width: 30%;
 }
 
 .topic, .sub-tab{
-    cursor: pointer;
-    border: 2px solid black;
-    padding: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid black;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
 }
 
 .sub-tabs{
-    display: flex;
+  display: flex;
 }
