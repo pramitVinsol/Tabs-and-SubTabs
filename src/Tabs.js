@@ -65,10 +65,17 @@ class Tabs extends Component {
 		};
 	};
 
+<<<<<<< HEAD
 	tabClickHandler = (event, tab, subTab) => {
 		// event.stopPropagation();
 		this.setState({ activeTab: tab.id, activeSubTab: subTab.id, heading: tab.name });
 	}
+=======
+    tabClickHandler = (event, tab, subTab) => {
+        event.stopPropagation();
+        this.setState({ activeTab: tab.id, activeSubTab: subTab.id, heading: tab.name });
+    }
+>>>>>>> 000511971a020273480f40b1d9d32f4ee4bcb27f
 
 	subTabClickHandler = (event, { id }) => {
 		event.stopPropagation();
