@@ -10,7 +10,8 @@ function TabContent(props) {
 }
 
 TabContent.defaultProps = {
-  children: ''
+  heading: '',
+  content: ''
 };
 
 export default TabContent;
